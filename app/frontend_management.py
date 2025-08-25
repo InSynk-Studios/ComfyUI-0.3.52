@@ -39,7 +39,7 @@ def is_valid_version(version: str) -> bool:
 
 def get_installed_frontend_version():
     """Get the currently installed frontend package version."""
-    frontend_version_str = version("comfyui-frontend-package")
+    frontend_version_str = version("fs-comfyui-frontend-package")
     return frontend_version_str
 
 def get_required_frontend_version():
